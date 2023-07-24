@@ -16,7 +16,8 @@
     "build": "rollup -c",
     "lint": "standard",
     "format": "prettier-standard --format",
-    "test": "jest --coverage"
+    "test": "jest --coverage",
+    "prepublish": "npm run build"
   },
   "author": "Tony Nguyen tonynguyenit18@gmail.com",
   "repository": {
